@@ -1,8 +1,9 @@
+
 let myCapture;
 
 function setup() {
   let canvas = createCanvas(640, 480);
-  //canvas.parent("sketch");
+ // canvas.parent("sketch");
   myCapture = createCapture(VIDEO);
   myCapture.size(320,240);
   myCapture.hide();
@@ -37,3 +38,13 @@ function draw() {
     }
   }
 }
+/** 
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+  
+  rect(50,50,45,45);
+}**/
